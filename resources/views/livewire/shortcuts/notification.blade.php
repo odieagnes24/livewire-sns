@@ -1,0 +1,1 @@
+<a href="{{ route('notifications') }}" class="nav-link @if($is_mobile_view) p-2 text-dark @endif"><i class="fas fa-bell"></i> Notifications @if($notifications_count > 0)<small class="badge bg-danger rounded-circle">{{ $notifications_count }}</small> @endif</a>
